@@ -1,0 +1,184 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"499 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 499: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"455
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 455: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"167
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 167: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"211
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 211: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"676
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 676: extern volatile __bit RB0 __attribute__((address(0x30)));
+[v _RB0 `Vb ~T0 @X0 0 e@48 ]
+"679
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 679: extern volatile __bit RB1 __attribute__((address(0x31)));
+[v _RB1 `Vb ~T0 @X0 0 e@49 ]
+"682
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 682: extern volatile __bit RB2 __attribute__((address(0x32)));
+[v _RB2 `Vb ~T0 @X0 0 e@50 ]
+"55 C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 55: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"62
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 62: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"69
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 69: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"76
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 76: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"162
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 162: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"169
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 169: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"213
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 213: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"275
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 275: __asm("EEDATA equ 08h");
+[; <" EEDATA equ 08h ;# ">
+"282
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 282: __asm("EEADR equ 09h");
+[; <" EEADR equ 09h ;# ">
+"289
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 289: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"309
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 309: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"387
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 387: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"457
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 457: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"501
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 501: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"563
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 563: __asm("EECON1 equ 088h");
+[; <" EECON1 equ 088h ;# ">
+"607
+[; ;C:\Program Files\Microchip\xc8\v2.36\pic\include\proc\pic16f84a.h: 607: __asm("EECON2 equ 089h");
+[; <" EECON2 equ 089h ;# ">
+"4 newmain.c
+[; ;newmain.c: 4:     PORTA=0X00;
+[p x FOSC  =  XT         ]
+"5
+[; ;newmain.c: 5:     PORTB=0X00;
+[p x WDTE  =  OFF        ]
+"6
+[; ;newmain.c: 6: 
+[p x PWRTE  =  OFF       ]
+"7
+[; ;newmain.c: 7:     while(1)
+[p x CP  =  OFF          ]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"9
+[; ;newmain.c: 9:         PORTB=0b00001000;
+[v _main `(v ~T0 @X0 1 ef ]
+"10
+[; ;newmain.c: 10:         if(1 == RB0)
+{
+[e :U _main ]
+[f ]
+"11
+[; ;newmain.c: 11:             PORTA=0X01;
+[e = _TRISB -> -> 7 `i `uc ]
+"12
+[; ;newmain.c: 12:         if(1 == RB1)
+[e = _TRISA -> -> 0 `i `uc ]
+"13
+[; ;newmain.c: 13:             PORTA=0X02;
+[e = _PORTA -> -> 0 `i `uc ]
+"14
+[; ;newmain.c: 14:         if(1 == RB2)
+[e = _PORTB -> -> 0 `i `uc ]
+"16
+[; ;newmain.c: 16: 
+[e :U 25 ]
+"17
+[; ;newmain.c: 17: 
+{
+"18
+[; ;newmain.c: 18:         PORTB=0b00010000;
+[e = _PORTB -> -> 8 `i `uc ]
+"19
+[; ;newmain.c: 19:         if(1 == RB0)
+[e $ ! == -> 1 `i -> _RB0 `i 27  ]
+"20
+[; ;newmain.c: 20:             PORTA=0X04;
+[e = _PORTA -> -> 1 `i `uc ]
+[e :U 27 ]
+"21
+[; ;newmain.c: 21:         if(1 == RB1)
+[e $ ! == -> 1 `i -> _RB1 `i 28  ]
+"22
+[; ;newmain.c: 22:             PORTA=0X05;
+[e = _PORTA -> -> 2 `i `uc ]
+[e :U 28 ]
+"23
+[; ;newmain.c: 23:         if(1 == RB2)
+[e $ ! == -> 1 `i -> _RB2 `i 29  ]
+"24
+[; ;newmain.c: 24:             PORTA=0X06;
+[e = _PORTA -> -> 3 `i `uc ]
+[e :U 29 ]
+"27
+[; ;newmain.c: 27:         PORTB=0b00100000;
+[e = _PORTB -> -> 16 `i `uc ]
+"28
+[; ;newmain.c: 28:         if(1 == RB0)
+[e $ ! == -> 1 `i -> _RB0 `i 30  ]
+"29
+[; ;newmain.c: 29:             PORTA=0X07;
+[e = _PORTA -> -> 4 `i `uc ]
+[e :U 30 ]
+"30
+[; ;newmain.c: 30:         if(1 == RB1)
+[e $ ! == -> 1 `i -> _RB1 `i 31  ]
+"31
+[; ;newmain.c: 31:             PORTA=0X08;
+[e = _PORTA -> -> 5 `i `uc ]
+[e :U 31 ]
+"32
+[; ;newmain.c: 32:         if(1 == RB2)
+[e $ ! == -> 1 `i -> _RB2 `i 32  ]
+"33
+[; ;newmain.c: 33:             PORTA=0X09;
+[e = _PORTA -> -> 6 `i `uc ]
+[e :U 32 ]
+"36
+[; ;newmain.c: 36: }
+[e = _PORTB -> -> 32 `i `uc ]
+"37
+[e $ ! == -> 1 `i -> _RB0 `i 33  ]
+"38
+[e = _PORTA -> -> 7 `i `uc ]
+[e :U 33 ]
+"39
+[e $ ! == -> 1 `i -> _RB1 `i 34  ]
+"40
+[e = _PORTA -> -> 8 `i `uc ]
+[e :U 34 ]
+"41
+[e $ ! == -> 1 `i -> _RB2 `i 35  ]
+"42
+[e = _PORTA -> -> 9 `i `uc ]
+[e :U 35 ]
+"44
+}
+[e :U 24 ]
+[e $U 25  ]
+[e :U 26 ]
+"45
+[e :UE 23 ]
+}
